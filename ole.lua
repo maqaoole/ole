@@ -1,4 +1,6 @@
---
+-- OMLET: On the fly Memory Locality Evaluator and Tracer
+-- OLE  : On -the-fly Locality Evaluator
+
 module ("ole", package.seeall)
 
 require "lfs"

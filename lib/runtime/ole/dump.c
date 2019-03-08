@@ -120,7 +120,7 @@ void OLE_dump_loop_all_stats(FILE *fd, _OLE_loop_t *loop_p)
 		      -global_length, 
 		      (inst->asmline) ? inst->asmline : "NULL", 
 		      (inst->type == 'l') ? "load" : "store",
-		      (inst->laddr) ? 'l' : 'f',
+		      (inst->bin_address == inst->laddr) ? 'l' : 'f',
 		      (inst->laddr),
 		      (inst->laddr) ? ";" : ";\t",
 		      
