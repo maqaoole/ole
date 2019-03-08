@@ -1,0 +1,131 @@
+
+.0 - Build the binary
+----------------------
+
+COMMAND # make clean; make
+
+.1 - Get the target loop's MAQAO ID
+-----------------------------------
+
+COMMAND # maqao analyze -ll ./memopt
+
+Function name (in file)                  | Loops
+------------------------------------------+--------------------------------
+ _init                                    |
+ main                                     |
+                                          | 0  [depth = 0]
+                                          | 1  [depth = 0]
+                                          | 2  [depth = 0]
+                                          | 3  [depth = 0]
+                                          | 4  [depth = 0]
+                                          | 5  [depth = 0]
+                                          | 6  [depth = 0]
+                                          | 7  [depth = 0]
+                                          | 8  [depth = 0]
+                                          | 9  [depth = 0]
+                                          | 10  [depth = 0]
+                                          | 11  [depth = 0]
+                                          | 12  [depth = 0]
+                                          | 13  [depth = 0]
+                                          | 14  [depth = 0]
+                                          | 15  [depth = 0]
+                                          | 16  [depth = 0]
+                                          | 17  [depth = 0]
+                                          | 18  [depth = 0]
+                                          | 19  [depth = 0]
+                                          | 20  [depth = 0]
+                                          | 21  [depth = 0]
+                                          | 22  [depth = 0]
+                                          | 23  [depth = 0]
+                                          | 24  [depth = 0]
+                                          | 25  [depth = 0]
+                                          | 26  [depth = 0]
+ set_fast_math                            |
+ _start                                   |
+ deregister_tm_clones                     |
+ register_tm_clones                       |
+ __do_global_dtors_aux                    |
+ frame_dummy                              |
+ sort                                     |
+                                          | 27  [depth = 0]
+                                          |  28  [depth = 1]
+ reduc                                    |
+                                          | 30  [depth = 0]
+                                          |  29  [depth = 1]                 <---- First target loop ID = 29 (worst case, all misses)
+ reduc1                                   |
+                                          | 31  [depth = 0]
+                                          |  32  [depth = 1]                
+ reduc2                                   |
+                                          | 33  [depth = 0]
+                                          |  34  [depth = 1]
+ reduc3                                   |
+                                          | 35  [depth = 0]
+ reduc4                                   |
+                                          | 36  [depth = 0]
+                                          | 37  [depth = 0]
+ reduc5                                   |
+                                          | 39  [depth = 0]
+                                          |  38  [depth = 1]
+                                          | 40  [depth = 0]
+ reduc6                                   |
+
+.
+.
+.
+
+
+.2 - Instrument the loop with OLE
+----------------------------------
+
+-- -b specifies the binary
+-- -l specifies the loop ID
+
+COMMAND # maqao ole -instru -b=./memopt -l=29
+
+
+                      )     (                
+                   ( /(     )\ )             
+                   )\())   (()/(     (       
+                  ((_)\     /(_))    )\      
+                     ((_)   (_))     ((_)     
+                    / _ \   | |      | __|    
+                   | (_) |_ | |__  _ | _|  _  
+                    \___/(_)|____|(_)|___|(_)    
+  
+   
+OLE_info : Generating experiment path maqao-ole_8-3-2019/
+OLE_info: Instrumenting target loops ...
+LOOP: 29 ==> ANALYZED
+LOOP: 1  INSN : 3e34 VADDSD (%RAX),%XMM5,%XMM6  ==> INSTRUMENTED
+LOOP: 1  INSN : 3e3b VADDSD (%RAX),%XMM6,%XMM0  ==> INSTRUMENTED
+LOOP: 1  INSN : 3e18 VADDSD (%RAX),%XMM1,%XMM2  ==> INSTRUMENTED
+LOOP: 1  INSN : 3e11 VADDSD (%RAX),%XMM0,%XMM1  ==> INSTRUMENTED
+LOOP: 1  INSN : 3e2d VADDSD (%RAX),%XMM4,%XMM5  ==> INSTRUMENTED
+LOOP: 1  INSN : 3e06 VADDSD (%RAX),%XMM0,%XMM0  ==> INSTRUMENTED
+LOOP: 1  INSN : 3e26 VADDSD (%RAX),%XMM3,%XMM4  ==> INSTRUMENTED
+LOOP: 1  INSN : 3e1f VADDSD (%RAX),%XMM2,%XMM3  ==> INSTRUMENTED
+
+.3 - Run the instrumented binary
+--------------------------------
+
+COMMAND # ./maqao-ole_8-3-2019/bin/memopt_i_ole 1000
+
+.4 - Output formatting
+----------------------
+
+COMMAND # maqao ole -output -xp=./maqao-ole_8-3-2019/
+
+.5 - Output
+-----------
+
+. You can open the index.html report in any browser.
+
+. Files containing the mention "groups" contain detailed traces.
+
+"ITER" ITERATION "-" NB_INSTRUCTIONS 
+   (BINARY ADDRESS, ITERATION, CACHE LEVEL, DECIMAL MEMORY ADDRESS, HEX MEMORY ADDRESS, OFFSET);
+
+. The file OLE_paxt.csv contains a stride pattern analysis
+
+
+6. In this case, you can see that loop 29 shows no cache hits. 

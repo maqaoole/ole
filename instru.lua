@@ -88,7 +88,7 @@ local function ole_instrument_loops(loops_meta, madras_obj)
 		  str_tmp = "==> INSTRUMENTED"
 	       end
 	       
-	       print ("LOOP: "..lid.."  INSN : "..string.format("%x", insn:get_address()).." "..insn_entry.insn_str.."\t"..str_tmp)
+	       print ("LOOP: "..loop:get_id().."  INSN : "..string.format("%x", insn:get_address()).." "..insn_entry.insn_str.."\t"..str_tmp)
 	       
 	    end
 	 end
@@ -104,27 +104,29 @@ local function ole_instrument_loops(loops_meta, madras_obj)
 
 	 -- Iteration counter
 	 madras_obj:fctcall_new("OLE_next_iter", "ole.so", p_addr, 1, 0)
-
+	 
 	 -- Instance handler
 	 madras_obj:fctcall_new("OLE_loop_record", "ole.so", l_addr, 1, 0)
 	
       end
    end
    
-   return madras_obj
+   return madras_obj, loop:get_id()
 end
 
 --
 function ole:ole_instrument_binary(mode, _meta, asmfile, madras_obj, binary, xp)
 
+   local loopID
+   
    -- Instrument target object
    if (mode == "loops")
    then
-      madras_obj = ole_instrument_loops(_meta, madras_obj)
+      madras_obj, loopID = ole_instrument_loops(_meta, madras_obj)
    else
       if (mode == "instructions")
       then
-	 madras_obj = ole_instrument_insns(_meta, madras_obj)
+	 -- madras_obj = ole_instrument_insns(_meta, madras_obj)
       else
 	 if (mode == "functions")
 	 then
@@ -153,6 +155,7 @@ function ole:ole_instrument_binary(mode, _meta, asmfile, madras_obj, binary, xp)
       
       madras_obj:fctcall_addparam_from_gvar(nil, binary, "a")
       madras_obj:fctcall_addparam_from_gvar(nil, xp, "a")
+      madras_obj:fctcall_addparam_imm(loopID)
       
    else
       ole:ole_print_error("ERR_INIT_NOTFOUND", xp)

@@ -56,7 +56,7 @@ int OLE_get_socket_config();
 int OLE_get_cpu_config(lua_State *L, _OLE_config_t *config);
 int OLE_get_core_config(lua_State *L, _OLE_config_t *config);
 _OLE_config_t *OLE_load_config(char *cfgfname);
-_OLE_cpu_t *OLE_init(char *bin, char *xp);
+_OLE_cpu_t *OLE_init(char *bin, char *xp, uint64_t loopID);
 void OLE_loop_record();
 void OLE_next_iter();
 void OLE_close_new_groups_fd();

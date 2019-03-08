@@ -333,7 +333,7 @@ _OLE_cpu_t *OLE_init_(_OLE_config_t *config, uint64_t loopID)
   
   global_root_loop = global_tmp_loop;
   
-  //Only one loop ...
+  //Should be 
   global_loopID = loopID;
   
   //
@@ -410,7 +410,7 @@ void OLE_relase()
 }
 
 //
-_OLE_cpu_t *OLE_init(char *bin, char *xp) //
+_OLE_cpu_t *OLE_init(char *bin, char *xp, uint64_t loopID) //
 { 
   if (xp[strlen(xp) - 1] == '/')
     xp[strlen(xp) - 1] = 0;
@@ -436,7 +436,7 @@ _OLE_cpu_t *OLE_init(char *bin, char *xp) //
   //Should be parametrized !!!
   global_config = OLE_load_config(cfg_path);
   
-  global_cpu = OLE_init_(global_config, 0);
+  global_cpu = OLE_init_(global_config, loopID);
   
   global_trace = NULL;
 

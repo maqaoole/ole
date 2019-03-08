@@ -1,0 +1,12 @@
+double reduc (double *restrict t, unsigned long long n);
+double reduc1(double *restrict t, unsigned long long n);
+double reduc2(double *restrict t, unsigned long long n);
+double reduc3(double *restrict t, unsigned long long n);
+double reduc4(double *restrict t, unsigned long long n);
+double reduc5(double *restrict t, unsigned long long n);
+double reduc6(double *restrict t, unsigned long long n);
+double reduc7(double *restrict t, unsigned long long n);
+double reduc8(double *restrict t, unsigned long long n);
+double reduc9(double *restrict t, unsigned long long n);
+double reduc10(double *restrict t, unsigned long long n);
+double reduc11(double *restrict t, unsigned long long n);
