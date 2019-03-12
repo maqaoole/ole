@@ -70,8 +70,6 @@ void OLE_dump_loop_all_stats(FILE *fd, _OLE_loop_t *loop_p)
   uint64_t cnt_instances = 0, nb_insns = 0, nb_iter;
   uint64_t stats_per_col[NB_COLS] = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
-  printf("NB_INST: %" PRIu64 "\n", nb_instances);
-
   while (loop)
     {            
       inst = loop->ll_instructions;
