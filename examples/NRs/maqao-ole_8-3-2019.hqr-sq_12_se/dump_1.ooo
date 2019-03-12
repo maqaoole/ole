@@ -1,9 +1,0 @@
-instruction;	nb_fe;	type;	inputs;	outputs;	latency;	P0,P1,P2,P3,P4,P5,P6,P7;	special;	type;	inputs;	outputs;	latency;	P0,P1,P2,P3,P4,P5,P6,P7;	special;	
-4205960: MOVUPS	(%RSI,%RDI,4),%XMM0;	1;	load;	RSI,RDI;	XMM0;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
-4205964: MOVUPS	0x10(%RSI,%RDI,4),%XMM3;	1;	load;	RSI,RDI;	XMM3;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
-4205969: ADD	$0x8,%RDI;	1;	compute;	RDI;	RDI,flags;	1;	x, x, 0, 0, 0, x, x, 0;	;	
-4205973: ANDPS	0x9fbf4(%RIP),%XMM0;	1;	load;	RIP;	;	6;	0, 0, x, x, 0, 0, 0, 0;	;	compute;	XMM0;	XMM0;	1;	x, x, 0, 0, 0, x, 0, 0;	;	
-4205980: ANDPS	0x9fbed(%RIP),%XMM3;	1;	load;	RIP;	;	6;	0, 0, x, x, 0, 0, 0, 0;	;	compute;	XMM3;	XMM3;	1;	x, x, 0, 0, 0, x, 0, 0;	;	
-4205987: ADDPS	%XMM0,%XMM2;	1;	compute;	XMM0,XMM2;	XMM2;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
-4205990: ADDPS	%XMM3,%XMM1;	1;	compute;	XMM3,XMM1;	XMM1;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
-4205993: CMP	%RAX,%RDI : JB	402d88 <codelet_+0x88>;	1;	branch;	RAX,RDI,flags;	flags;	0;	0, 0, 0, 0, 0, 0, 1, 0;	;	

@@ -1,9 +1,0 @@
-Binary             : ptr1_movaps_branch
-Loop ID            : 0
-Origin function    : scale_
-Nb of Instructions : 5
-Bytes per iter     : 16
-Avg cycles estim.  : 6
-BW (Bytes/cycle)   : 2.6666666666667
-Stream #1:
-0x400b30 MOVAPS (%RSI),%XMM0

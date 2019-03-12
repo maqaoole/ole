@@ -1,5 +1,0 @@
-instruction;	nb_fe;	type;	inputs;	outputs;	latency;	P0,P1,P2,P3,P4,P5,P6,P7;	special;	type;	inputs;	outputs;	latency;	P0,P1,P2,P3,P4,P5,P6,P7;	special;	
-4197168: MOVAPS	(%RSI),%XMM0;	1;	load;	RSI;	XMM0;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
-4197171: MOVQ	%XMM0,%RSI;	1;	compute;	XMM0;	RSI;	1;	1, 0, 0, 0, 0, 0, 0, 0;	;	
-4197176: ADD	$0x1,%R10;	1;	compute;	R10;	R10,flags;	1;	x, x, 0, 0, 0, x, x, 0;	;	
-4197180: CMP	%RDI,%R10 : JB	400b30 <scale_+0x40>;	1;	branch;	RDI,R10,flags;	flags;	0;	0, 0, 0, 0, 0, 0, 1, 0;	;	
