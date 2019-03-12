@@ -1,0 +1,1000 @@
+Instance 0
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 1
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 2
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 3
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 4
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 5
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 6
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 7
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 8
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 9
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 10
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 11
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 12
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 13
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 14
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 15
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 16
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 17
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 18
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 19
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 20
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 21
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 22
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 23
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 24
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 25
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 26
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 27
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 28
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 29
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 30
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 31
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 32
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 33
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 34
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 35
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 36
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 37
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 38
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 39
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 40
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 41
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 42
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 43
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 44
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 45
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 46
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 47
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 48
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 49
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 50
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 51
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 52
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 53
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 54
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 55
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 56
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 57
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 58
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 59
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 60
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 61
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 62
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 63
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 64
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 65
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 66
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 67
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 68
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 69
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 70
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 71
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 72
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 73
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 74
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 75
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 76
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 77
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 78
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 79
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 80
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 81
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 82
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 83
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 84
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 85
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 86
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 87
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 88
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 89
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 90
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 91
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 92
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 93
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 94
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 95
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 96
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 97
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 98
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+
+Instance 99
+0x3e06:	VADDSD (%RAX),%XMM0,%XMM0                         ;	linear pattern;	64000
+0x3e11:	VADDSD (%RAX),%XMM0,%XMM1                         ;	linear pattern;	64000
+0x3e18:	VADDSD (%RAX),%XMM1,%XMM2                         ;	linear pattern;	64000
+0x3e1f:	VADDSD (%RAX),%XMM2,%XMM3                         ;	linear pattern;	64000
+0x3e26:	VADDSD (%RAX),%XMM3,%XMM4                         ;	linear pattern;	64000
+0x3e2d:	VADDSD (%RAX),%XMM4,%XMM5                         ;	linear pattern;	64000
+0x3e34:	VADDSD (%RAX),%XMM5,%XMM6                         ;	linear pattern;	64000
+0x3e3b:	VADDSD (%RAX),%XMM6,%XMM0                         ;	linear pattern;	64000
+

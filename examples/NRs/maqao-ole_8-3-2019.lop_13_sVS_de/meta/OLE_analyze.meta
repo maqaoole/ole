@@ -1,0 +1,17 @@
+Binary             : lop_13_sVS_de
+Loop ID            : 0
+Origin function    : codelet_
+Nb of Instructions : 15
+Bytes per iter     : 48
+Avg cycles estim.  : 4
+BW (Bytes/cycle)   : 12
+Stream #1:
+0x402d92 MOVSD 0x10(%RBP,%R15,8),%XMM3
+Stream #2:
+0x402da4 ADDSD 0x18(%R11,%R15,8),%XMM3
+0x402dab ADDSD 0x8(%R11,%R15,8),%XMM3
+0x402d80 MOVSD 0x10(%R11,%R15,8),%XMM2
+Stream #3:
+0x402d9d ADDSD 0x10(%RBX,%R15,8),%XMM3
+Stream #4:
+0x402dba MOVSD %XMM4,0x10(%R14,%R15,8)

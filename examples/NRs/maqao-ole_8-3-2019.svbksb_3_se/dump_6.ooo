@@ -1,0 +1,17 @@
+instruction;	nb_fe;	type;	inputs;	outputs;	latency;	P0,P1,P2,P3,P4,P5,P6,P7;	special;	type;	inputs;	outputs;	latency;	P0,P1,P2,P3,P4,P5,P6,P7;	special;	
+4206224: MOVUPS	(%RCX,%R15,4),%XMM4;	1;	load;	RCX,R15;	XMM4;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4206229: MOVUPS	(%RBX,%R15,4),%XMM5;	1;	load;	RBX,R15;	XMM5;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4206234: MULPS	%XMM4,%XMM5;	1;	compute;	XMM4,XMM5;	XMM5;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4206237: MOVUPS	(%R13,%R15,4),%XMM3;	1;	load;	R13,R15;	XMM3;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4206243: MOVUPS	0x10(%R13,%R15,4),%XMM6;	1;	load;	R13,R15;	XMM6;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4206249: MULPS	%XMM4,%XMM3;	1;	compute;	XMM4,XMM3;	XMM3;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4206252: ADDPS	%XMM5,%XMM0;	1;	compute;	XMM5,XMM0;	XMM0;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4206255: MOVUPS	0x10(%RCX,%R15,4),%XMM7;	1;	load;	RCX,R15;	XMM7;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4206261: ADDPS	%XMM3,%XMM2;	1;	compute;	XMM3,XMM2;	XMM2;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4206264: MULPS	%XMM7,%XMM6;	1;	compute;	XMM7,XMM6;	XMM6;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4206267: MOVUPS	0x10(%RBX,%R15,4),%XMM8;	1;	load;	RBX,R15;	XMM8;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4206273: ADD	$0x8,%R15;	1;	compute;	R15;	R15,flags;	1;	x, x, 0, 0, 0, x, x, 0;	;	
+4206277: MULPS	%XMM7,%XMM8;	1;	compute;	XMM7,XMM8;	XMM8;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4206281: ADDPS	%XMM6,%XMM1;	1;	compute;	XMM6,XMM1;	XMM1;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4206284: ADDPS	%XMM8,%XMM0;	1;	compute;	XMM8,XMM0;	XMM0;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4206288: CMP	%R12,%R15 : JB	402e90 <codelet_+0x190>;	1;	branch;	R12,R15,flags;	flags;	0;	0, 0, 0, 0, 0, 0, 1, 0;	;	

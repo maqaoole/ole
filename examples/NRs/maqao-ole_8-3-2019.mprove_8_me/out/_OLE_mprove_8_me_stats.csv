@@ -1,0 +1,2600 @@
+LoopID : 6; InstanceID : 0; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	225.000;	75.000;	0.000;	0.000;	75.000;	0.000;	0.000;	75.000;	0.000
+Sum(Column) / LoopCount:	75.000;	25.000;	0.000;	0.000;	25.000;	0.000;	0.000;	25.000;	0.000
+
+LoopID : 6; InstanceID : 1; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	50.000;	0.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	16.667;	0.000;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 2; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	50.000;	0.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	16.667;	0.000;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 3; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	50.000;	0.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	16.667;	0.000;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 4; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	50.000;	0.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	16.667;	0.000;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 5; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	50.000;	0.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	16.667;	0.000;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 6; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	50.000;	0.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	16.667;	0.000;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 7; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	50.000;	0.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	16.667;	0.000;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 8; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	25;	0;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	23;	2;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	48.000;	2.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	16.000;	0.667;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 9; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	17;	8;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	22;	3;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	39.000;	11.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	13.000;	3.667;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 10; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 11; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	99;	0;	1;	1;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	249.000;	0.000;	51.000;	1.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.000;	0.000;	17.000;	0.333;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 12; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	41;	0;	59;	59;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	30;	0;	70;	45;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	146.000;	0.000;	154.000;	104.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	48.667;	0.000;	51.333;	34.667;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 13; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 14; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 15; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 16; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	17;	8;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	18;	7;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	35.000;	15.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	11.667;	5.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 17; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	92;	0;	8;	8;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	242.000;	0.000;	58.000;	8.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	80.667;	0.000;	19.333;	2.667;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 18; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 19; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 20; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 21; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 22; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	98;	0;	2;	2;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	248.000;	0.000;	52.000;	2.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	82.667;	0.000;	17.333;	0.667;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 23; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 24; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 25; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 26; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	90;	0;	10;	10;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	10;	15;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	240.000;	0.000;	60.000;	10.000;	35.000;	15.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	80.000;	0.000;	20.000;	3.333;	11.667;	5.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 27; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 28; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 29; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 30; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 31; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	96;	0;	4;	4;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	246.000;	0.000;	54.000;	4.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	82.000;	0.000;	18.000;	1.333;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 32; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 33; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 34; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	97;	0;	3;	3;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	247.000;	0.000;	53.000;	3.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	82.333;	0.000;	17.667;	1.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 35; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	88;	0;	12;	12;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	238.000;	0.000;	62.000;	12.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	79.333;	0.000;	20.667;	4.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 36; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	16;	9;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	41.000;	9.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	13.667;	3.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 37; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	19;	6;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	44.000;	6.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	14.667;	2.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 38; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 39; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 40; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	94;	0;	6;	6;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	244.000;	0.000;	56.000;	6.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	81.333;	0.000;	18.667;	2.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 41; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 42; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 43; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	99;	0;	1;	1;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	249.000;	0.000;	51.000;	1.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.000;	0.000;	17.000;	0.333;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 44; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	41;	0;	59;	59;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	30;	0;	70;	45;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	146.000;	0.000;	154.000;	104.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	48.667;	0.000;	51.333;	34.667;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 45; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 46; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 47; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	10;	15;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	35.000;	15.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	11.667;	5.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 48; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 49; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	92;	0;	8;	8;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	242.000;	0.000;	58.000;	8.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	80.667;	0.000;	19.333;	2.667;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 50; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 51; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 52; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 53; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	23;	2;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	12;	13;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	35.000;	15.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	11.667;	5.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 54; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	98;	0;	2;	2;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	12;	13;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	248.000;	0.000;	52.000;	2.000;	37.000;	13.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	82.667;	0.000;	17.333;	0.667;	12.333;	4.333;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 55; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	23;	2;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	48.000;	2.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.000;	0.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 56; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 57; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	15;	10;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	20;	5;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	35.000;	15.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	11.667;	5.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 58; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	90;	0;	10;	10;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	240.000;	0.000;	60.000;	10.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	80.000;	0.000;	20.000;	3.333;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 59; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 60; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 61; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 62; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 63; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	96;	0;	4;	4;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	10;	15;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	246.000;	0.000;	54.000;	4.000;	35.000;	15.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	82.000;	0.000;	18.000;	1.333;	11.667;	5.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 64; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	24;	1;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	49.000;	1.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.333;	0.333;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 65; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	11;	14;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	36.000;	14.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	12.000;	4.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 66; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	97;	0;	3;	3;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	247.000;	0.000;	53.000;	3.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	82.333;	0.000;	17.667;	1.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 67; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	88;	0;	12;	12;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	10;	15;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	238.000;	0.000;	62.000;	12.000;	35.000;	15.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	79.333;	0.000;	20.667;	4.000;	11.667;	5.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 68; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 69; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 70; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 71; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 72; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	94;	0;	6;	6;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	244.000;	0.000;	56.000;	6.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	81.333;	0.000;	18.667;	2.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 73; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	22;	3;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	47.000;	3.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	15.667;	1.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 74; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	13;	12;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	38.000;	12.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	12.667;	4.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 75; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	11;	14;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	99;	0;	1;	1;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	24;	1;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	249.000;	0.000;	51.000;	1.000;	35.000;	15.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.000;	0.000;	17.000;	0.333;	11.667;	5.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 76; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	41;	0;	59;	59;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	30;	0;	70;	45;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	146.000;	0.000;	154.000;	104.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	48.667;	0.000;	51.333;	34.667;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 77; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	14;	11;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	39.000;	11.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	13.000;	3.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 78; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	11;	14;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	36.000;	14.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	12.000;	4.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 79; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 80; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	50.000;	0.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	16.667;	0.000;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 81; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	25;	0;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	92;	0;	8;	8;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	21;	4;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	242.000;	0.000;	58.000;	8.000;	46.000;	4.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	80.667;	0.000;	19.333;	2.667;	15.333;	1.333;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 82; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 83; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 84; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 85; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 86; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	98;	0;	2;	2;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	248.000;	0.000;	52.000;	2.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	82.667;	0.000;	17.333;	0.667;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 87; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 88; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 89; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 90; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	90;	0;	10;	10;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	240.000;	0.000;	60.000;	10.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	80.000;	0.000;	20.000;	3.333;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 91; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 92; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 93; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	100;	0;	0;	0;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	250.000;	0.000;	50.000;	0.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	83.333;	0.000;	16.667;	0.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 94; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 95; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	96;	0;	4;	4;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	246.000;	0.000;	54.000;	4.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	82.000;	0.000;	18.000;	1.333;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 96; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 97; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	85;	0;	15;	15;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	235.000;	0.000;	65.000;	15.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	78.333;	0.000;	21.667;	5.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 98; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	97;	0;	3;	3;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	247.000;	0.000;	53.000;	3.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	82.333;	0.000;	17.667;	1.000;	0.000;	16.667;	0.000;	16.667;	0.000
+
+LoopID : 6; InstanceID : 99; LoopCount : 100; NbInsns : 3
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402eb0; MOVUPS (%R14,%R13,4),%XMM4                        ;	load;	l;	0x402eb0;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402eb5; MOVUPS (%RCX,%R13,4),%XMM7                        ;	load;	l;	0x402eb5;	88;	0;	12;	12;	0;	0;	0;	0;	0;
+0x402eba; MOVUPS (%R11,%R13,4),%XMM8                        ;	load;	l;	0x402eba;	75;	0;	25;	0;	0;	25;	0;	25;	0;
+0x402ebf; ADD	$0x4,%R13;
+0x402ec3; MULPS	%XMM7,%XMM4;
+0x402ec6; MULPS	%XMM7,%XMM8;
+0x402eca; CVTPS2PD	%XMM4,%XMM5;
+0x402ecd; CVTPS2PD	%XMM8,%XMM9;
+0x402ed1; ADDPD	%XMM5,%XMM3;
+0x402ed5; ADDPD	%XMM9,%XMM2;
+0x402eda; MOVHLPS	%XMM4,%XMM4;
+0x402edd; MOVHLPS	%XMM8,%XMM8;
+0x402ee1; CVTPS2PD	%XMM4,%XMM6;
+0x402ee4; CVTPS2PD	%XMM8,%XMM10;
+0x402ee8; ADDPD	%XMM6,%XMM1;
+0x402eec; ADDPD	%XMM10,%XMM0;
+0x402ef1; CMP	%R12,%R13;
+0x402ef4; JB	402eb0 <codelet_+0x1b0>;
+
+Sum(Column):	238.000;	0.000;	62.000;	12.000;	0.000;	50.000;	0.000;	50.000;	0.000
+Sum(Column) / LoopCount:	79.333;	0.000;	20.667;	4.000;	0.000;	16.667;	0.000;	16.667;	0.000
+

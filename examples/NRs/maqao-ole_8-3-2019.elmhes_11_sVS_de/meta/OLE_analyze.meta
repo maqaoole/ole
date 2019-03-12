@@ -1,0 +1,17 @@
+Binary             : elmhes_11_sVS_de
+Loop ID            : 0
+Origin function    : codelet_
+Nb of Instructions : 14
+Bytes per iter     : 48
+Avg cycles estim.  : 2
+BW (Bytes/cycle)   : 24
+Stream #1:
+0x402d7a MOVSD -0x8(%R15,%R11,2),%XMM3
+Stream #2:
+0x402d70 MOVSD -0x8(%RDI,%R11,2),%XMM1
+Stream #3:
+0x402d90 MOVSD -0x8(%RBP,%R11,2),%XMM4
+0x402da6 MOVSD %XMM4,-0x8(%RBP,%R11,2)
+Stream #4:
+0x402d9f MOVSD %XMM2,-0x8(%R9,%R11,2)
+0x402d89 MOVSD -0x8(%R9,%R11,2),%XMM2

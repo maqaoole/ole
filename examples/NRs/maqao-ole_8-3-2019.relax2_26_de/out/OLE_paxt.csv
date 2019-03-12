@@ -1,0 +1,1600 @@
+Instance 0
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 1
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 2
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 3
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 4
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 5
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 6
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 7
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 8
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 9
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 10
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 11
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 12
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 13
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 14
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 15
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 16
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 17
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 18
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 19
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 20
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 21
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 22
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 23
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 24
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 25
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 26
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 27
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 28
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 29
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 30
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 31
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 32
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 33
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 34
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 35
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 36
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 37
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 38
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 39
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 40
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 41
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 42
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 43
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 44
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 45
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 46
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 47
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 48
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 49
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 50
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 51
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 52
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 53
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 54
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 55
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 56
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 57
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 58
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 59
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 60
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 61
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 62
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 63
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 64
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 65
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 66
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 67
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 68
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 69
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 70
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 71
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 72
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 73
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 74
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 75
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 76
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 77
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 78
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 79
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 80
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 81
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 82
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 83
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 84
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 85
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 86
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 87
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 88
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 89
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 90
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 91
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 92
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 93
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 94
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 95
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 96
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 97
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 98
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+
+Instance 99
+0x402e83:	MOVSD 0x8(%R15),%XMM14                            ;	linear pattern;	9792
+0x402e89:	MOVSD (%R15),%XMM8                                ;	linear pattern;	9792
+0x402e8e:	MOVHPD 0x8(%R15,%RDX,1),%XMM14                    ;	linear pattern;	9792
+0x402e95:	MOVHPD (%R15,%RDX,1),%XMM8                        ;	linear pattern;	9792
+0x402e9f:	MOVSD (%R15),%XMM13                               ;	linear pattern;	9792
+0x402ea8:	MOVHPD (%R15,%RDX,1),%XMM13                       ;	linear pattern;	9792
+0x402eb2:	MOVSD (%R15),%XMM6                                ;	linear pattern;	9792
+0x402eb7:	MOVHPD (%R15,%RDX,1),%XMM6                        ;	linear pattern;	9792
+0x402ed6:	MOVSD (%R15),%XMM7                                ;	linear pattern;	9792
+0x402edb:	MOVHPD (%R15,%RDX,1),%XMM7                        ;	linear pattern;	9792
+0x402f03:	MOVSD (%R15),%XMM11                               ;	linear pattern;	9792
+0x402f08:	MOVHPD (%R15,%RDX,1),%XMM11                       ;	linear pattern;	9792
+0x402f25:	MOVSD %XMM14,(%R15)                               ;	linear pattern;	9792
+0x402f2a:	MOVHPD %XMM14,(%RDX,%R15,1)                       ;	linear pattern;	9792
+

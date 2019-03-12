@@ -463,6 +463,8 @@ void OLE_loop_record()
 
   //If found then insert InstanceID into the found instance clones list
   //If not found insert new Instance
+
+  printf("Instance: %" PRIu64 "\n", nb_instances);
   
   nb_instances++;
   
@@ -482,11 +484,7 @@ void OLE_loop_record()
     }
   else
     if (nb_instances >= MAX_INSTANCES)
-      if (!dumped) //Dump once when MAX instances is reached
-	{
-	  OLE_dump_global_loop_stats();
-	  dumped = 1;
-	}
+      OLE_dump_global_loop_stats();
   
   return ; 
 }
@@ -517,9 +515,5 @@ void OLE_analyze_pattern(_OLE_instruction_t *inst)
 //
 void OLE_exit()
 {
-  if (!dumped)
-    {
-      atexit(OLE_dump_global_loop_stats);
-      dumped = 1;
-    }
+  OLE_dump_global_loop_stats();
 }

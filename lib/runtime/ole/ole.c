@@ -342,8 +342,6 @@ void OLE_inject_cacheline(uint64_t loopID, uint64_t baddr, unsigned inst, /* uin
 			global_cpu->nb_caches, global_tmp_loop, baddr, (inst) ? 'l' : 's', 
 			/* stream_id, */ asmline, &a); 
   
-  //Dump once when the program reaches the end nothing has been dumped before
-  //OLE_exit();
   
   nb_calls++;  
 }

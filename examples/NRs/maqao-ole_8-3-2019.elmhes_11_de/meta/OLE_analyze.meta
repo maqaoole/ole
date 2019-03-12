@@ -1,0 +1,47 @@
+Binary             : elmhes_11_de
+Loop ID            : 1
+Origin function    : codelet_
+Nb of Instructions : 44
+Bytes per iter     : 192
+Avg cycles estim.  : 8
+BW (Bytes/cycle)   : 24
+Stream #1:
+0x402e2a MOVHPD %XMM5,(%RCX,%RBX,1)
+0x402e1d MOVHPD (%RCX,%RBX,1),%XMM5
+Stream #2:
+0x402e06 MOVSD (%R8),%XMM4
+Stream #3:
+0x402dfe MOVHPD %XMM3,(%RDI,%RBX,1)
+0x402df1 MOVHPD (%RDI,%RBX,1),%XMM3
+Stream #4:
+0x402e6b MOVHPD (%R8,%RBX,1),%XMM8
+Stream #5:
+0x402e4e MOVHPD (%R15,%RBX,1),%XMM7
+0x402e5d MOVHPD %XMM7,(%R15,%RBX,1)
+Stream #6:
+0x402dd2 MOVSD (%RDI),%XMM3
+0x402dfa MOVSD %XMM3,(%RDI)
+Stream #7:
+0x402e37 MOVHPD (%R8,%RBX,1),%XMM6
+Stream #8:
+0x402dda MOVSD (%R8),%XMM2
+Stream #9:
+0x402e66 MOVSD (%R8),%XMM8
+Stream #10:
+0x402e32 MOVSD (%R8),%XMM6
+Stream #11:
+0x402e58 MOVSD %XMM7,(%R15)
+0x402e46 MOVSD (%R15),%XMM7
+Stream #12:
+0x402de3 MOVHPD (%R8,%RBX,1),%XMM2
+Stream #13:
+0x402e0b MOVHPD (%R8,%RBX,1),%XMM4
+Stream #14:
+0x402e76 MOVSD (%RAX),%XMM9
+0x402e86 MOVSD %XMM9,(%RAX)
+Stream #15:
+0x402e8b MOVHPD %XMM9,(%RAX,%RBX,1)
+0x402e7b MOVHPD (%RAX,%RBX,1),%XMM9
+Stream #16:
+0x402e26 MOVSD %XMM5,(%RCX)
+0x402e19 MOVSD (%RCX),%XMM5

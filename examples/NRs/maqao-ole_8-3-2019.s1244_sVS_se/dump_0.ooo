@@ -1,0 +1,15 @@
+instruction;	nb_fe;	type;	inputs;	outputs;	latency;	P0,P1,P2,P3,P4,P5,P6,P7;	special;	type;	inputs;	outputs;	latency;	P0,P1,P2,P3,P4,P5,P6,P7;	special;	
+4197330: MOVSS	(%RCX,%RSI,4),%XMM3;	1;	load;	RCX,RSI;	XMM3;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4197335: MOVAPS	%XMM3,%XMM1;	1;	eliminated move;	XMM3;	XMM1;	0;	0, 0, 0, 0, 0, 0, 0, 0;	;	
+4197338: MULSS	%XMM3,%XMM1;	1;	compute;	XMM3,XMM1;	XMM1;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4197342: MOVSS	(%RDX,%RSI,4),%XMM0;	1;	load;	RDX,RSI;	XMM0;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4197347: MOVSS	0x4(%R9,%RSI,4),%XMM2;	1;	load;	R9,RSI;	XMM2;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4197354: ADDSS	%XMM0,%XMM1;	1;	compute;	XMM0,XMM1;	XMM1;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4197358: MULSS	%XMM0,%XMM0;	1;	compute;	XMM0,XMM0;	XMM0;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4197362: ADDSS	%XMM0,%XMM1;	1;	compute;	XMM0,XMM1;	XMM1;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4197366: ADDSS	%XMM1,%XMM3;	1;	compute;	XMM1,XMM3;	XMM3;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4197370: MOVSS	%XMM3,(%R9,%RSI,4);	1;	store_addr;	R9,RSI;	;	1;	0, 0, x, x, 0, 0, 0, x;	;	store;	XMM3;	;	3;	0, 0, 0, 0, 1, 0, 0, 0;	;	
+4197376: ADDSS	%XMM3,%XMM2;	1;	compute;	XMM3,XMM2;	XMM2;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4197380: MOVSS	%XMM2,(%R8,%RSI,4);	1;	store_addr;	R8,RSI;	;	1;	0, 0, x, x, 0, 0, 0, x;	;	store;	XMM2;	;	3;	0, 0, 0, 0, 1, 0, 0, 0;	;	
+4197386: INC	%RSI;	1;	compute;	RSI;	RSI,flags;	1;	x, x, 0, 0, 0, x, x, 0;	;	
+4197389: CMP	%RDI,%RSI : JL	400bd2 <codelet_+0x12>;	1;	branch;	RDI,RSI,flags;	flags;	0;	0, 0, 0, 0, 0, 0, 1, 0;	;	

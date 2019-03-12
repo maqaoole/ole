@@ -1,0 +1,9 @@
+instruction;	nb_fe;	type;	inputs;	outputs;	latency;	P0,P1,P2,P3,P4,P5,P6,P7;	special;	type;	inputs;	outputs;	latency;	P0,P1,P2,P3,P4,P5,P6,P7;	special;	
+4205866: MOVSS	(%R8,%RSI,8),%XMM2;	1;	load;	R8,RSI;	XMM2;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4205872: MOVSS	0x4(%R8,%RSI,8),%XMM3;	1;	load;	R8,RSI;	XMM3;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4205879: INC	%RSI;	1;	compute;	RSI;	RSI,flags;	1;	x, x, 0, 0, 0, x, x, 0;	;	
+4205882: ANDPS	0x9fc0f(%RIP),%XMM2;	1;	load;	RIP;	;	6;	0, 0, x, x, 0, 0, 0, 0;	;	compute;	XMM2;	XMM2;	1;	x, x, 0, 0, 0, x, 0, 0;	;	
+4205889: ANDPS	0x9fc08(%RIP),%XMM3;	1;	load;	RIP;	;	6;	0, 0, x, x, 0, 0, 0, 0;	;	compute;	XMM3;	XMM3;	1;	x, x, 0, 0, 0, x, 0, 0;	;	
+4205896: ADDSS	%XMM2,%XMM1;	1;	compute;	XMM2,XMM1;	XMM1;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4205900: ADDSS	%XMM3,%XMM0;	1;	compute;	XMM3,XMM0;	XMM0;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4205904: CMP	%RAX,%RSI : JB	402d2a <codelet_+0x2a>;	1;	branch;	RAX,RSI,flags;	flags;	0;	0, 0, 0, 0, 0, 0, 1, 0;	;	

@@ -69,12 +69,14 @@ void OLE_dump_loop_all_stats(FILE *fd, _OLE_loop_t *loop_p)
   _OLE_instruction_t *inst;
   uint64_t cnt_instances = 0, nb_insns = 0, nb_iter;
   uint64_t stats_per_col[NB_COLS] = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  
+
+  printf("NB_INST: %" PRIu64 "\n", nb_instances);
+
   while (loop)
     {            
       inst = loop->ll_instructions;
       
-      if (cnt_instances <= MAX_INSTANCES)
+      if (cnt_instances < nb_instances)
 	{
 	  nb_insns = OLE_get_nb_instructions(loop);
 
@@ -171,8 +173,9 @@ void OLE_dump_loop_all_stats(FILE *fd, _OLE_loop_t *loop_p)
 	}
       else
 	loop = NULL;
-      
-      loop = loop->next;
+
+      if (loop)
+	loop = loop->next;
     }
   
   return;
@@ -261,10 +264,10 @@ void OLE_dump_global_loop_stats()
   
   sprintf(fname_paxt, "%s/OLE_paxt.csv", out_path);
 
-  FILE *fd   = fopen(fname_all, "wb"),
-    *fng  = fopen(fname_new_grps, "wb"),
-    *fngc = fopen(fname_new_grps_cold, "wb"),
-    *fngl = fopen(fname_new_grps_last, "wb"),
+  FILE *fd = fopen(fname_all, "wb"),
+    *fng   = fopen(fname_new_grps, "wb"),
+    *fngc  = fopen(fname_new_grps_cold, "wb"),
+    *fngl  = fopen(fname_new_grps_last, "wb"),
     *fpaxt = fopen(fname_paxt, "wb");
       
   OLE_dump_loop_all_stats(fd, global_root_loop);    
@@ -282,7 +285,7 @@ void OLE_dump_global_loop_stats()
   while (tmp->next && i < MAX_INSTANCES)
     { tmp = tmp->next; i++; }
   
-  printf("OLE instance chosen : %" PRIu64 "/%" PRIu64 "\n", i + 1, nb_instances);
+  printf("OLE instance chosen : %" PRIu64 "/%" PRIu64 "\n", i, nb_instances);
 
   OLE_dump_groups(fngl, tmp);
   fclose(fngl);

@@ -1,0 +1,19 @@
+Binary             : four1_2_me
+Loop ID            : 1
+Origin function    : codelet_
+Nb of Instructions : 32
+Bytes per iter     : 40
+Avg cycles estim.  : 7
+BW (Bytes/cycle)   : 5.7142857142857
+Stream #1:
+0x402e06 MOVSS %XMM11,(%RSI,%RBP,4)
+0x402de8 MOVSS -0x4(%RSI,%RBP,4),%XMM10
+0x402d8e MOVSS -0x4(%RSI,%RBP,4),%XMM8
+0x402def MOVSS (%RSI,%RBP,4),%XMM11
+0x402dd7 MOVSS (%RSI,%RBP,4),%XMM9
+0x402dff MOVSS %XMM10,-0x4(%RSI,%RBP,4)
+Stream #2:
+0x402d98 MOVSS (%RSI,%RDX,4),%XMM7
+0x402dd0 MOVSS %XMM8,-0x4(%RSI,%RDX,4)
+0x402d9d MOVSS -0x4(%RSI,%RDX,4),%XMM6
+0x402de2 MOVSS %XMM9,(%RSI,%RDX,4)

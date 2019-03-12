@@ -1,0 +1,15 @@
+instruction;                                            nb_fe;  type;           inputs;         outputs;        latency;        P0,P1,P2,P3,P4,P5,P6,P7;        special;        type;           inputs;         outputs;        latency;        P0,P1,P2,P3,P4,P5,P6,P7;        special;
+4206064: MOVUPS	(%RSI,%R8,8),%XMM0;	1;	load;	RSI,R8;	XMM0;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:3 ,cache_line:0;
+4206069: MOVUPS	0x10(%RSI,%R8,8),%XMM1;	1;	load;	RSI,R8;	XMM1;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:1 ,cache_line:1;
+4206075: MOVUPS	0x20(%RSI,%R8,8),%XMM2;	1;	load;	RSI,R8;	XMM2;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:1 ,cache_line:2;
+4206081: MOVUPS	0x30(%RSI,%R8,8),%XMM3;	1;	load;	RSI,R8;	XMM3;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:1 ,cache_line:3;
+4206087: ADDPD	(%RDX,%R8,8),%XMM0;	1;	load;	RDX,R8;	;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:1 ,cache_line:4;	compute;	XMM0;	XMM0;	4;	x, x, 0, 0, 0, 0, 0, 0;	;
+4206093: ADDPD	0x10(%RDX,%R8,8),%XMM1;	1;	load;	RDX,R8;	;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:1 ,cache_line:5;	compute;	XMM1;	XMM1;	4;	x, x, 0, 0, 0, 0, 0, 0;	;
+4206100: ADDPD	0x20(%RDX,%R8,8),%XMM2;	1;	load;	RDX,R8;	;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:1 ,cache_line:6;	compute;	XMM2;	XMM2;	4;	x, x, 0, 0, 0, 0, 0, 0;	;
+4206107: ADDPD	0x30(%RDX,%R8,8),%XMM3;	1;	load;	RDX,R8;	;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:1 ,cache_line:7;	compute;	XMM3;	XMM3;	4;	x, x, 0, 0, 0, 0, 0, 0;	;
+4206114: MOVUPS	%XMM0,(%RCX,%R8,8);	1;	store_addr;	RCX,R8;	;	1;	0, 0, x, x, 0, 0, 0, x;	;	store;	XMM0;	;	3;	0, 0, 0, 0, 1, 0, 0, 0;	cache_level:1 ,cache_line:8;
+4206119: MOVUPS	%XMM1,0x10(%RCX,%R8,8);	1;	store_addr;	RCX,R8;	;	1;	0, 0, x, x, 0, 0, 0, x;	;	store;	XMM1;	;	3;	0, 0, 0, 0, 1, 0, 0, 0;	cache_level:1 ,cache_line:9;
+4206125: MOVUPS	%XMM2,0x20(%RCX,%R8,8);	1;	store_addr;	RCX,R8;	;	1;	0, 0, x, x, 0, 0, 0, x;	;	store;	XMM2;	;	3;	0, 0, 0, 0, 1, 0, 0, 0;	cache_level:1 ,cache_line:10;
+4206131: MOVUPS	%XMM3,0x30(%RCX,%R8,8);	1;	store_addr;	RCX,R8;	;	1;	0, 0, x, x, 0, 0, 0, x;	;	store;	XMM3;	;	3;	0, 0, 0, 0, 1, 0, 0, 0;	cache_level:1 ,cache_line:11;
+4206137: ADD	$0x8,%R8;	1;	compute;	R8;	R8,flags;	1;	x, x, 0, 0, 0, x, x, 0;	;
+4206141: CMP	%RAX,%R8 : JB	402df0 <codelet_+0xf0>;	1;	branch;	RAX,R8,flags;	flags;	0;	0, 0, 0, 0, 0, 0, 1, 0;	;

@@ -1,0 +1,18 @@
+Binary             : toeplz_2_de
+Loop ID            : 0
+Origin function    : codelet_
+Nb of Instructions : 15
+Bytes per iter     : 64
+Avg cycles estim.  : 3
+BW (Bytes/cycle)   : 21.333333333333
+Stream #1:
+0x402d68 MOVSD -0x8(%RDX,%R10,8),%XMM2
+0x402d40 MOVSD -0x8(%RDX,%R10,8),%XMM0
+Stream #2:
+0x402d4a MULSD -0x8(%R8,%RAX,1),%XMM0
+0x402d6f MULSD -0x10(%R8,%RAX,1),%XMM2
+Stream #3:
+0x402d7e MOVSD %XMM3,0x8(%R9,%RDX,1)
+0x402d57 MOVSD 0x8(%R9,%RDX,1),%XMM3
+0x402d51 MOVSD (%R9,%RDX,1),%XMM1
+0x402d62 MOVSD %XMM1,(%R9,%RDX,1)

@@ -1,0 +1,30 @@
+Binary             : toeplz_1_de
+Loop ID            : 1
+Origin function    : codelet_
+Nb of Instructions : 42
+Bytes per iter     : 192
+Avg cycles estim.  : 16
+BW (Bytes/cycle)   : 12
+Stream #1:
+0x402e51 MOVHPD (%R8,%RAX,8),%XMM7
+0x402e4a MOVSD 0x8(%R8,%RAX,8),%XMM7
+0x402e6e MOVSD -0x8(%R8,%RAX,8),%XMM9
+0x402e7b MOVHPD -0x10(%R8,%RAX,8),%XMM9
+0x402dfb MOVSD 0x28(%R8,%RAX,8),%XMM5
+0x402de9 MOVHPD 0x10(%R8,%RAX,8),%XMM6
+0x402e10 MOVHPD 0x20(%R8,%RAX,8),%XMM5
+0x402de2 MOVSD 0x18(%R8,%RAX,8),%XMM6
+Stream #2:
+0x402e17 MOVUPS (%R9,%RSI,8),%XMM1
+0x402df0 MOVUPS 0x10(%R9,%RSI,8),%XMM8
+0x402e75 MOVUPS 0x20(%R9,%RSI,8),%XMM2
+0x402ea3 MOVUPS 0x30(%R9,%RSI,8),%XMM3
+Stream #3:
+0x402e86 MOVHPD -0x40(%R10,%R11,8),%XMM11
+0x402e43 MOVSD -0x28(%R10,%R11,8),%XMM10
+0x402e31 MOVSD -0x18(%R10,%R11,8),%XMM3
+0x402e67 MOVSD -0x38(%R10,%R11,8),%XMM11
+0x402e57 MOVHPD -0x30(%R10,%R11,8),%XMM10
+0x402e38 MOVHPD -0x20(%R10,%R11,8),%XMM3
+0x402e09 MOVHPD -0x10(%R10,%R11,8),%XMM4
+0x402e02 MOVSD -0x8(%R10,%R11,8),%XMM4

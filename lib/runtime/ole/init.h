@@ -61,6 +61,8 @@ void OLE_loop_record();
 void OLE_next_iter();
 void OLE_close_new_groups_fd();
 void OLE_analyze_pattern();
-void OLE_exit();
+
+//
+void OLE_exit() __attribute__((destructor));
 
 #endif

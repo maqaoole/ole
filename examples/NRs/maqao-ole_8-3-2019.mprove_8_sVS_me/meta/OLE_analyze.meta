@@ -1,0 +1,16 @@
+Binary             : mprove_8_sVS_me
+Loop ID            : 2
+Origin function    : codelet_
+Nb of Instructions : 21
+Bytes per iter     : 24
+Avg cycles estim.  : 6
+BW (Bytes/cycle)   : 4
+Stream #1:
+0x402db2 MOVSS 0x4(%R14,%RBX,8),%XMM7
+0x402dac MOVSS (%R14,%RBX,8),%XMM4
+Stream #2:
+0x402da0 MOVSS (%RCX,%RBX,8),%XMM5
+0x402da5 MOVSS 0x4(%RCX,%RBX,8),%XMM8
+Stream #3:
+0x402dbf MOVSS 0x4(%RBP,%RBX,8),%XMM9
+0x402db9 MOVSS (%RBP,%RBX,8),%XMM6

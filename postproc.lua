@@ -291,7 +291,7 @@ function ole:ole_stats_to_html(xp, d)
       
       for _, v in pairs(tmp)
       do
-	 if (v ~= "" and v ~= " " and _ ~= 4)
+	 if (v ~= "" and v ~= " ")
 	 then 
 	    outf:write("<th bgcolor='#16609c'><font color='white'>"..v.."</font></th>\n")
 	 end
@@ -315,7 +315,7 @@ function ole:ole_stats_to_html(xp, d)
 	 
 	 for _, v in pairs(tmp)
 	 do	    
-	    if (v ~= "" and v ~= " " and _ ~= 4)
+	    if (v ~= "" and v ~= " ")
 	    then 
 	       outf:write("<td><b>"..v.."</b></td>\n")
 	    end
@@ -341,7 +341,7 @@ function ole:ole_stats_to_html(xp, d)
       tmp  = String:get_tokenized_table(sums, ":", false, false, nil)
       tmp1 = String:get_tokenized_table(tmp[2], ";", false, false, nil)
 
-      outf:write("<tr><th bgcolor='#6082b6' colspan='4'><font color='white'>"..tmp[1].."</font></th>\n")
+      outf:write("<tr><th bgcolor='#6082b6' colspan='5><font color='white'>"..tmp[1].."</font></th>\n")
       
       for _, v in pairs(tmp1)
       do
@@ -356,7 +356,7 @@ function ole:ole_stats_to_html(xp, d)
       tmp  = String:get_tokenized_table(ratios, ":", false, false, nil)
       tmp1 = String:get_tokenized_table(tmp[2], ";", false, false, nil)
 
-      outf:write("<tr><th bgcolor='#6082b6' colspan='4'><font color='white'>"..tmp[1].."</font></th>\n")
+      outf:write("<tr><th bgcolor='#6082b6' colspan='5'><font color='white'>"..tmp[1].."</font></th>\n")
       
       for _, v in pairs(tmp1)
       do

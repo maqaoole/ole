@@ -1,0 +1,15 @@
+instruction;	nb_fe;	type;	inputs;	outputs;	latency;	P0,P1,P2,P3,P4,P5,P6,P7;	special;	type;	inputs;	outputs;	latency;	P0,P1,P2,P3,P4,P5,P6,P7;	special;	
+4205952: MOVSD	0x10(%R11,%R15,8),%XMM2;	1;	load;	R11,R15;	XMM2;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4205959: MOVAPS	%XMM2,%XMM4;	1;	eliminated move;	XMM2;	XMM4;	0;	0, 0, 0, 0, 0, 0, 0, 0;	;	
+4205962: MULSD	%XMM2,%XMM4;	1;	compute;	XMM2,XMM4;	XMM4;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4205966: MULSD	%XMM0,%XMM2;	1;	compute;	XMM0,XMM2;	XMM2;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4205970: MOVSD	0x10(%RBP,%R15,8),%XMM3;	1;	load;	RBP,R15;	XMM3;	6;	0, 0, x, x, 0, 0, 0, 0;	;	
+4205977: SUBSD	%XMM2,%XMM3;	1;	compute;	XMM2,XMM3;	XMM3;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4205981: ADDSD	0x10(%RBX,%R15,8),%XMM3;	1;	load;	RBX,R15;	;	6;	0, 0, x, x, 0, 0, 0, 0;	;	compute;	XMM3;	XMM3;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4205988: ADDSD	0x18(%R11,%R15,8),%XMM3;	1;	load;	R11,R15;	;	6;	0, 0, x, x, 0, 0, 0, 0;	;	compute;	XMM3;	XMM3;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4205995: ADDSD	0x8(%R11,%R15,8),%XMM3;	1;	load;	R11,R15;	;	6;	0, 0, x, x, 0, 0, 0, 0;	;	compute;	XMM3;	XMM3;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4206002: MULSD	%XMM1,%XMM3;	1;	compute;	XMM1,XMM3;	XMM3;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4206006: ADDSD	%XMM3,%XMM4;	1;	compute;	XMM3,XMM4;	XMM4;	4;	x, x, 0, 0, 0, 0, 0, 0;	;	
+4206010: MOVSD	%XMM4,0x10(%R14,%R15,8);	1;	store_addr;	R14,R15;	;	1;	0, 0, x, x, 0, 0, 0, x;	;	store;	XMM4;	;	3;	0, 0, 0, 0, 1, 0, 0, 0;	;	
+4206017: INC	%R15;	1;	compute;	R15;	R15,flags;	1;	x, x, 0, 0, 0, x, x, 0;	;	
+4206020: CMP	%R10,%R15 : JB	402d80 <codelet_+0x80>;	1;	branch;	R10,R15,flags;	flags;	0;	0, 0, 0, 0, 0, 0, 1, 0;	;	

@@ -1,0 +1,24 @@
+Binary             : balanc_3_sVS_de
+Loop ID            : 0
+Origin function    : codelet_
+Nb of Instructions : 28
+Bytes per iter     : 128
+Avg cycles estim.  : 8
+BW (Bytes/cycle)   : 16
+Stream #1:
+0x402d52 MOVSD (%RDX,%RAX,1),%XMM1
+0x402da6 MOVSD %XMM1,(%RDX,%RAX,1)
+0x402dc3 MOVSD %XMM6,0x28(%RDX,%RAX,1)
+0x402dcf MOVSD %XMM8,0x38(%RDX,%RAX,1)
+0x402d6c MOVSD 0x20(%RDX,%RAX,1),%XMM5
+0x402d5a MOVSD 0x8(%RDX,%RAX,1),%XMM2
+0x402d66 MOVSD 0x18(%RDX,%RAX,1),%XMM4
+0x402d60 MOVSD 0x10(%RDX,%RAX,1),%XMM3
+0x402dc9 MOVSD %XMM7,0x30(%RDX,%RAX,1)
+0x402dbd MOVSD %XMM5,0x20(%RDX,%RAX,1)
+0x402d7e MOVSD 0x38(%RDX,%RAX,1),%XMM8
+0x402db1 MOVSD %XMM3,0x10(%RDX,%RAX,1)
+0x402db7 MOVSD %XMM4,0x18(%RDX,%RAX,1)
+0x402dab MOVSD %XMM2,0x8(%RDX,%RAX,1)
+0x402d72 MOVSD 0x28(%RDX,%RAX,1),%XMM6
+0x402d78 MOVSD 0x30(%RDX,%RAX,1),%XMM7

@@ -1,0 +1,1600 @@
+LoopID : 2; InstanceID : 0; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	0;	64;	1186;	0;	512;	738;	0;	1250;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	0;	64;	1186;	0;	512;	738;	0;	1250;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	0;	64;	1186;	0;	512;	738;	0;	1250;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	0;	64;	1186;	0;	512;	738;	0;	1250;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	0;	64;	1186;	0;	512;	738;	0;	1250;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	0;	64;	1186;	0;	512;	738;	0;	1250;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	0;	64;	1186;	0;	512;	738;	0;	1250;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	0;	64;	1186;	0;	512;	738;	0;	1250;	0
+
+Sum(Column):	0.000;	512.000;	9488.000;	0.000;	4096.000;	5904.000;	0.000;	10000.000;	0.000
+Sum(Column) / LoopCount:	0.000;	64.000;	1186.000;	0.000;	512.000;	738.000;	0.000;	1250.000;	0.000
+
+LoopID : 2; InstanceID : 1; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 2; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 3; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 4; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 5; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 6; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 7; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 8; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 9; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 10; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 11; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 12; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 13; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 14; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 15; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 16; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 17; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 18; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 19; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 20; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 21; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 22; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 23; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 24; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 25; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 26; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 27; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 28; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 29; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 30; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 31; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 32; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 33; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 34; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 35; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 36; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 37; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 38; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 39; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 40; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 41; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 42; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 43; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 44; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 45; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 46; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 47; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 48; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 49; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 50; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 51; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 52; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 53; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 54; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 55; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 56; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 57; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 58; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 59; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 60; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 61; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 62; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 63; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 64; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 65; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 66; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 67; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 68; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 69; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 70; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 71; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 72; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 73; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 74; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 75; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 76; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 77; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 78; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 79; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 80; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 81; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 82; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 83; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 84; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 85; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 86; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 87; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 88; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 89; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 90; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 91; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 92; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 93; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 94; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 95; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 96; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 97; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 98; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+
+LoopID : 2; InstanceID : 99; LoopCount : 1250; NbInsns : 8
+
+Address; Instruction                                        ;  Type; Leader/Follower; Leader address; L1_HIT; L1_COLD; L1_CONF; L2_HIT; L2_COLD; L2_CONF; L3_HIT; L3_COLD; L3_CONF;
+
+0x402dc8; MOVSD (%R8),%XMM5                                 ;	load;	l;	0x402dc8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402dcd; MOVHPD (%R8,%R11,1),%XMM5                         ;	load;	l;	0x402dcd;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dd8; MOVSD (%R8),%XMM6                                 ;	load;	l;	0x402dd8;	57;	0;	1193;	409;	0;	784;	784;	0;	0
+0x402de0; MOVHPD (%R8,%R11,1),%XMM6                         ;	load;	l;	0x402de0;	54;	0;	1196;	448;	0;	748;	748;	0;	0
+0x402dea; MOVSD (%R8),%XMM7                                 ;	load;	l;	0x402dea;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402df2; MOVHPD (%R8,%R11,1),%XMM7                         ;	load;	l;	0x402df2;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+0x402dfc; MOVSD (%R8),%XMM8                                 ;	load;	l;	0x402dfc;	58;	0;	1192;	410;	0;	782;	782;	0;	0
+0x402e04; MOVHPD (%R8,%R11,1),%XMM8                         ;	load;	l;	0x402e04;	55;	0;	1195;	448;	0;	747;	747;	0;	0
+
+Sum(Column):	448.000;	0.000;	9552.000;	3430.000;	0.000;	6122.000;	6122.000;	0.000;	0.000
+Sum(Column) / LoopCount:	56.000;	0.000;	1194.000;	428.750;	0.000;	765.250;	765.250;	0.000;	0.000
+

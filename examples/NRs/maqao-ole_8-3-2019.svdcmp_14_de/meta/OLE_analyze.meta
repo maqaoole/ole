@@ -1,0 +1,17 @@
+Binary             : svdcmp_14_de
+Loop ID            : 1
+Origin function    : codelet_
+Nb of Instructions : 15
+Bytes per iter     : 128
+Avg cycles estim.  : 16
+BW (Bytes/cycle)   : 8
+Stream #1:
+0x402e2b MOVUPS 0x20(%R9,%R10,8),%XMM4
+0x402e20 MOVUPS (%R9,%R10,8),%XMM2
+0x402e31 MOVUPS 0x30(%R9,%R10,8),%XMM5
+0x402e25 MOVUPS 0x10(%R9,%R10,8),%XMM3
+Stream #2:
+0x402e4c MOVUPS %XMM3,0x10(%RCX,%R10,8)
+0x402e47 MOVUPS %XMM2,(%RCX,%R10,8)
+0x402e52 MOVUPS %XMM4,0x20(%RCX,%R10,8)
+0x402e58 MOVUPS %XMM5,0x30(%RCX,%R10,8)

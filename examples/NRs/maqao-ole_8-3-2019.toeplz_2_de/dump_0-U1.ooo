@@ -1,0 +1,15 @@
+instruction;                                            nb_fe;  type;           inputs;         outputs;        latency;        P0,P1,P2,P3,P4,P5,P6,P7;        special;        type;           inputs;         outputs;        latency;        P0,P1,P2,P3,P4,P5,P6,P7;        special;
+4205888: MOVSD	-0x8(%RDX,%R10,8),%XMM0;	1;	load;	RDX,R10;	XMM0;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:2 ,cache_line:0;
+4205895: INC	%RDI;	1;	compute;	RDI;	RDI,flags;	1;	x, x, 0, 0, 0, x, x, 0;	;
+4205898: MULSD	-0x8(%R8,%RAX,1),%XMM0;	1;	load;	R8,RAX;	;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:3 ,cache_line:1;	compute;	XMM0;	XMM0;	4;	x, x, 0, 0, 0, 0, 0, 0;	;
+4205905: MOVSD	(%R9,%RDX,1),%XMM1;	1;	load;	R9,RDX;	XMM1;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:1 ,cache_line:0;
+4205911: MOVSD	0x8(%R9,%RDX,1),%XMM3;	1;	load;	R9,RDX;	XMM3;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:1 ,cache_line:2;
+4205918: SUBSD	%XMM0,%XMM1;	1;	compute;	XMM0,XMM1;	XMM1;	4;	x, x, 0, 0, 0, 0, 0, 0;	;
+4205922: MOVSD	%XMM1,(%R9,%RDX,1);	1;	store_addr;	R9,RDX;	;	1;	0, 0, x, x, 0, 0, 0, x;	;	store;	XMM1;	;	3;	0, 0, 0, 0, 1, 0, 0, 0;	cache_level:1 ,cache_line:0;
+4205928: MOVSD	-0x8(%RDX,%R10,8),%XMM2;	1;	load;	RDX,R10;	XMM2;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:1 ,cache_line:0;
+4205935: MULSD	-0x10(%R8,%RAX,1),%XMM2;	1;	load;	R8,RAX;	;	6;	0, 0, x, x, 0, 0, 0, 0;	cache_level:1 ,cache_line:3;	compute;	XMM2;	XMM2;	4;	x, x, 0, 0, 0, 0, 0, 0;	;
+4205942: ADD	$-0x10,%R8;	1;	compute;	R8;	R8,flags;	1;	x, x, 0, 0, 0, x, x, 0;	;
+4205946: SUBSD	%XMM2,%XMM3;	1;	compute;	XMM2,XMM3;	XMM3;	4;	x, x, 0, 0, 0, 0, 0, 0;	;
+4205950: MOVSD	%XMM3,0x8(%R9,%RDX,1);	1;	store_addr;	R9,RDX;	;	1;	0, 0, x, x, 0, 0, 0, x;	;	store;	XMM3;	;	3;	0, 0, 0, 0, 1, 0, 0, 0;	cache_level:1 ,cache_line:2;
+4205957: ADD	$0x10,%R9;	1;	compute;	R9;	R9,flags;	1;	x, x, 0, 0, 0, x, x, 0;	;
+4205961: CMP	%RCX,%RDI : JB	402d40 <codelet_+0x40>;	1;	branch;	RCX,RDI,flags;	flags;	0;	0, 0, 0, 0, 0, 0, 1, 0;	;

@@ -1,0 +1,16 @@
+Binary             : s1244_se
+Loop ID            : 1
+Origin function    : codelet_
+Nb of Instructions : 15
+Bytes per iter     : 80
+Avg cycles estim.  : 3
+BW (Bytes/cycle)   : 26.666666666667
+Stream #1:
+0x400cc3 MOVUPS 0x4(%R10,%RSI,4),%XMM2
+0x400cd9 MOVUPS %XMM3,(%R10,%RSI,4)
+Stream #2:
+0x400ce1 MOVUPS %XMM2,(%R8,%RSI,4)
+Stream #3:
+0x400cc9 MOVUPS (%RDX,%RSI,4),%XMM0
+Stream #4:
+0x400cb9 MOVUPS (%RCX,%RSI,4),%XMM1

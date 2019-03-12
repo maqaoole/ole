@@ -1,0 +1,13 @@
+Binary             : svdcmp_11_sVS_de
+Loop ID            : 0
+Origin function    : codelet_
+Nb of Instructions : 10
+Bytes per iter     : 32
+Avg cycles estim.  : 2
+BW (Bytes/cycle)   : 16
+Stream #1:
+0x402d71 MOVSD %XMM2,-0x8(%R10,%RBX,2)
+0x402d5c MOVSD -0x8(%R10,%RBX,2),%XMM2
+Stream #2:
+0x402d53 MOVSD -0x8(%RAX,%RBX,2),%XMM1
+0x402d6b MOVSD %XMM1,-0x8(%RAX,%RBX,2)

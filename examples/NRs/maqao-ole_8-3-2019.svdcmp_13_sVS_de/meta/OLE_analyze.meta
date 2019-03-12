@@ -1,0 +1,24 @@
+Binary             : svdcmp_13_sVS_de
+Loop ID            : 0
+Origin function    : codelet_
+Nb of Instructions : 44
+Bytes per iter     : 128
+Avg cycles estim.  : 32
+BW (Bytes/cycle)   : 4
+Stream #1:
+0x402e2d MOVSD %XMM13,0x20(%RAX,%R10,1)
+0x402da6 MOVSD 0x8(%RAX,%R10,1),%XMM10
+0x402e4f MOVSD %XMM15,0x30(%RAX,%R10,1)
+0x402d9b MOVSD %XMM9,(%RAX,%R10,1)
+0x402e60 MOVSD %XMM9,0x38(%RAX,%R10,1)
+0x402dc5 MOVSD 0x20(%RAX,%R10,1),%XMM13
+0x402dd3 MOVSD 0x30(%RAX,%R10,1),%XMM15
+0x402db7 MOVSD 0x10(%RAX,%R10,1),%XMM11
+0x402e3e MOVSD %XMM14,0x28(%RAX,%R10,1)
+0x402e1c MOVSD %XMM12,0x18(%RAX,%R10,1)
+0x402e0b MOVSD %XMM11,0x10(%RAX,%R10,1)
+0x402d8d MOVSD (%RAX,%R10,1),%XMM9
+0x402dda MOVSD 0x38(%RAX,%R10,1),%XMM9
+0x402dcc MOVSD 0x28(%RAX,%R10,1),%XMM14
+0x402dbe MOVSD 0x18(%RAX,%R10,1),%XMM12
+0x402dff MOVSD %XMM10,0x8(%RAX,%R10,1)

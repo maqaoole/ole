@@ -1,0 +1,13 @@
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x400b30,after=0,reglist=(nil),nreg=0)=modif_1
+madras_fctcall_addparam_imm(modif=modif_1,imm=0,opt=97)
+madras_fctcall_addparam_imm(modif=modif_1,imm=0x400b30,opt=97)
+madras_fctcall_addparam_imm(modif=modif_1,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_1,gv=0,str="MOVAPS (%RSI),%XMM0",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_1,idx=0,opt=a,addr=0x400b30)
+madras_fctcall_new(fctname=OLE_next_iter,libname=ole.so,addr=0x400b3c,after=1,reglist=(nil),nreg=0)=modif_2
+madras_fctcall_new(fctname=OLE_loop_record,libname=ole.so,addr=0x400b3f,after=1,reglist=(nil),nreg=0)=modif_3
+madras_fctcall_new(fctname=OLE_init,libname=ole.so,addr=0x400868,after=0,reglist=(nil),nreg=0)=modif_4
+madras_fctcall_addparam_fromglobvar(modif=modif_4,gv=0,str="ptr1_movaps_branch",opt=a)
+madras_fctcall_addparam_fromglobvar(modif=modif_4,gv=0,str="maqao-ole_8-3-2019/",opt=a)
+madras_fctcall_addparam_imm(modif=modif_4,imm=0,opt=97)
+madras_modifs_commit(newfilename=maqao-ole_8-3-2019/bin/ptr1_movaps_branch_i_ole)

@@ -1,0 +1,13 @@
+Binary             : hqr-sq_12_sVS_se
+Loop ID            : 0
+Origin function    : codelet_
+Nb of Instructions : 9
+Bytes per iter     : 40
+Avg cycles estim.  : 4
+BW (Bytes/cycle)   : 10
+Stream #1:
+0x402d2a MOVSS (%R8,%RSI,8),%XMM2
+0x402d30 MOVSS 0x4(%R8,%RSI,8),%XMM3
+Stream #2:
+0x402d41 ANDPS 0x9fc08(%RIP),%XMM3
+0x402d3a ANDPS 0x9fc0f(%RIP),%XMM2

@@ -1,0 +1,25 @@
+Binary             : memopt
+Loop ID            : 32
+Origin function    : reduc1
+Nb of Instructions : 27
+Bytes per iter     : 256
+Avg cycles estim.  : 32
+BW (Bytes/cycle)   : 8
+Stream #1:
+0x3f85 VINSERTF128 $0x1,0x10(%RAX),%YMM15,%YMM3
+0x3f81 VMOVUPD (%RAX),%XMM15
+Stream #2:
+0x3f9e VINSERTF128 $0x1,-0xd0(%RAX),%YMM2,%YMM7
+0x3fa8 VMOVUPD -0xc0(%RAX),%XMM6
+0x3ff2 VINSERTF128 $0x1,-0x30(%RAX),%YMM4,%YMM2
+0x3ffe VINSERTF128 $0x1,-0x10(%RAX),%YMM6,%YMM8
+0x3ff9 VMOVUPD -0x20(%RAX),%XMM6
+0x3fed VMOVUPD -0x40(%RAX),%XMM4
+0x3fdc VMOVUPD -0x60(%RAX),%XMM15
+0x3f96 VMOVUPD -0xe0(%RAX),%XMM2
+0x3fd5 VINSERTF128 $0x1,-0x70(%RAX),%YMM13,%YMM14
+0x3fc6 VINSERTF128 $0x1,-0x90(%RAX),%YMM10,%YMM11
+0x3fe1 VINSERTF128 $0x1,-0x50(%RAX),%YMM15,%YMM3
+0x3fbe VMOVUPD -0xa0(%RAX),%XMM10
+0x3fb0 VINSERTF128 $0x1,-0xb0(%RAX),%YMM6,%YMM8
+0x3fd0 VMOVUPD -0x80(%RAX),%XMM13

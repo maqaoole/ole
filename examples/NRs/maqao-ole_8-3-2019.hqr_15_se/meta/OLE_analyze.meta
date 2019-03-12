@@ -1,0 +1,31 @@
+Binary             : hqr_15_se
+Loop ID            : 0
+Origin function    : codelet_
+Nb of Instructions : 37
+Bytes per iter     : 64
+Avg cycles estim.  : 8
+BW (Bytes/cycle)   : 8
+Stream #1:
+0x402e13 MOVSS 0x18(%R14,%R9,1),%XMM7
+0x402e1e MOVSS %XMM7,0x18(%R14,%R9,1)
+Stream #2:
+0x402de6 MOVSS 0x10(%R14,%R9,1),%XMM5
+0x402df1 MOVSS %XMM5,0x10(%R14,%R9,1)
+Stream #3:
+0x402d99 MOVSS %XMM1,(%R14,%R9,1)
+0x402d8f MOVSS (%R14,%R9,1),%XMM1
+Stream #4:
+0x402dd0 MOVSS 0xc(%R14,%R9,1),%XMM4
+0x402ddb MOVSS %XMM4,0xc(%R14,%R9,1)
+Stream #5:
+0x402da3 MOVSS 0x4(%R14,%R9,1),%XMM2
+0x402dae MOVSS %XMM2,0x4(%R14,%R9,1)
+Stream #6:
+0x402dfc MOVSS 0x14(%R14,%R9,1),%XMM6
+0x402e07 MOVSS %XMM6,0x14(%R14,%R9,1)
+Stream #7:
+0x402e29 MOVSS 0x1c(%R14,%R9,1),%XMM8
+0x402e39 MOVSS %XMM8,0x1c(%R14,%R9,1)
+Stream #8:
+0x402dc4 MOVSS %XMM3,0x8(%R14,%R9,1)
+0x402db9 MOVSS 0x8(%R14,%R9,1),%XMM3

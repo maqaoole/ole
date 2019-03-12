@@ -148,7 +148,7 @@ local function ole_gen_xp()
    local xp_str = "maqao-ole_"..date.."/" --"_"..time.."/"
 
    -- Avoid time in order to simplify batch processing
-  
+   
    -- Check and create
    if (fs.exists(xp_str))
    then -- TODO: Handle this case smartly!

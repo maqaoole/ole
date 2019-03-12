@@ -1,0 +1,103 @@
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3f85,after=0,reglist=(nil),nreg=0)=modif_1
+madras_fctcall_addparam_imm(modif=modif_1,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_1,imm=0x3f85,opt=97)
+madras_fctcall_addparam_imm(modif=modif_1,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_1,gv=0,str="VINSERTF128 $0x1,0x10(%RAX),%YMM15,%YMM3",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_1,idx=1,opt=a,addr=0x3f85)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3f81,after=0,reglist=(nil),nreg=0)=modif_2
+madras_fctcall_addparam_imm(modif=modif_2,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_2,imm=0x3f81,opt=97)
+madras_fctcall_addparam_imm(modif=modif_2,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_2,gv=0,str="VMOVUPD (%RAX),%XMM15",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_2,idx=0,opt=a,addr=0x3f81)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3f9e,after=0,reglist=(nil),nreg=0)=modif_3
+madras_fctcall_addparam_imm(modif=modif_3,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_3,imm=0x3f9e,opt=97)
+madras_fctcall_addparam_imm(modif=modif_3,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_3,gv=0,str="VINSERTF128 $0x1,-0xd0(%RAX),%YMM2,%YMM7",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_3,idx=1,opt=a,addr=0x3f9e)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3fa8,after=0,reglist=(nil),nreg=0)=modif_4
+madras_fctcall_addparam_imm(modif=modif_4,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_4,imm=0x3fa8,opt=97)
+madras_fctcall_addparam_imm(modif=modif_4,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_4,gv=0,str="VMOVUPD -0xc0(%RAX),%XMM6",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_4,idx=0,opt=a,addr=0x3fa8)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3ff2,after=0,reglist=(nil),nreg=0)=modif_5
+madras_fctcall_addparam_imm(modif=modif_5,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_5,imm=0x3ff2,opt=97)
+madras_fctcall_addparam_imm(modif=modif_5,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_5,gv=0,str="VINSERTF128 $0x1,-0x30(%RAX),%YMM4,%YMM2",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_5,idx=1,opt=a,addr=0x3ff2)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3ffe,after=0,reglist=(nil),nreg=0)=modif_6
+madras_fctcall_addparam_imm(modif=modif_6,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_6,imm=0x3ffe,opt=97)
+madras_fctcall_addparam_imm(modif=modif_6,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_6,gv=0,str="VINSERTF128 $0x1,-0x10(%RAX),%YMM6,%YMM8",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_6,idx=1,opt=a,addr=0x3ffe)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3ff9,after=0,reglist=(nil),nreg=0)=modif_7
+madras_fctcall_addparam_imm(modif=modif_7,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_7,imm=0x3ff9,opt=97)
+madras_fctcall_addparam_imm(modif=modif_7,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_7,gv=0,str="VMOVUPD -0x20(%RAX),%XMM6",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_7,idx=0,opt=a,addr=0x3ff9)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3fed,after=0,reglist=(nil),nreg=0)=modif_8
+madras_fctcall_addparam_imm(modif=modif_8,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_8,imm=0x3fed,opt=97)
+madras_fctcall_addparam_imm(modif=modif_8,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_8,gv=0,str="VMOVUPD -0x40(%RAX),%XMM4",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_8,idx=0,opt=a,addr=0x3fed)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3fdc,after=0,reglist=(nil),nreg=0)=modif_9
+madras_fctcall_addparam_imm(modif=modif_9,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_9,imm=0x3fdc,opt=97)
+madras_fctcall_addparam_imm(modif=modif_9,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_9,gv=0,str="VMOVUPD -0x60(%RAX),%XMM15",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_9,idx=0,opt=a,addr=0x3fdc)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3f96,after=0,reglist=(nil),nreg=0)=modif_10
+madras_fctcall_addparam_imm(modif=modif_10,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_10,imm=0x3f96,opt=97)
+madras_fctcall_addparam_imm(modif=modif_10,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_10,gv=0,str="VMOVUPD -0xe0(%RAX),%XMM2",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_10,idx=0,opt=a,addr=0x3f96)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3fd5,after=0,reglist=(nil),nreg=0)=modif_11
+madras_fctcall_addparam_imm(modif=modif_11,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_11,imm=0x3fd5,opt=97)
+madras_fctcall_addparam_imm(modif=modif_11,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_11,gv=0,str="VINSERTF128 $0x1,-0x70(%RAX),%YMM13,%YMM14",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_11,idx=1,opt=a,addr=0x3fd5)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3fc6,after=0,reglist=(nil),nreg=0)=modif_12
+madras_fctcall_addparam_imm(modif=modif_12,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_12,imm=0x3fc6,opt=97)
+madras_fctcall_addparam_imm(modif=modif_12,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_12,gv=0,str="VINSERTF128 $0x1,-0x90(%RAX),%YMM10,%YMM11",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_12,idx=1,opt=a,addr=0x3fc6)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3fe1,after=0,reglist=(nil),nreg=0)=modif_13
+madras_fctcall_addparam_imm(modif=modif_13,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_13,imm=0x3fe1,opt=97)
+madras_fctcall_addparam_imm(modif=modif_13,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_13,gv=0,str="VINSERTF128 $0x1,-0x50(%RAX),%YMM15,%YMM3",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_13,idx=1,opt=a,addr=0x3fe1)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3fbe,after=0,reglist=(nil),nreg=0)=modif_14
+madras_fctcall_addparam_imm(modif=modif_14,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_14,imm=0x3fbe,opt=97)
+madras_fctcall_addparam_imm(modif=modif_14,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_14,gv=0,str="VMOVUPD -0xa0(%RAX),%XMM10",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_14,idx=0,opt=a,addr=0x3fbe)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3fb0,after=0,reglist=(nil),nreg=0)=modif_15
+madras_fctcall_addparam_imm(modif=modif_15,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_15,imm=0x3fb0,opt=97)
+madras_fctcall_addparam_imm(modif=modif_15,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_15,gv=0,str="VINSERTF128 $0x1,-0xb0(%RAX),%YMM6,%YMM8",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_15,idx=1,opt=a,addr=0x3fb0)
+madras_fctcall_new(fctname=OLE_inject_cacheline,libname=ole.so,addr=0x3fd0,after=0,reglist=(nil),nreg=0)=modif_16
+madras_fctcall_addparam_imm(modif=modif_16,imm=0x20,opt=97)
+madras_fctcall_addparam_imm(modif=modif_16,imm=0x3fd0,opt=97)
+madras_fctcall_addparam_imm(modif=modif_16,imm=0x1,opt=97)
+madras_fctcall_addparam_fromglobvar(modif=modif_16,gv=0,str="VMOVUPD -0x80(%RAX),%XMM13",opt=a)
+madras_fctcall_addparam_frominsn(modif=modif_16,idx=0,opt=a,addr=0x3fd0)
+madras_fctcall_new(fctname=OLE_next_iter,libname=ole.so,addr=0x401c,after=1,reglist=(nil),nreg=0)=modif_17
+madras_fctcall_new(fctname=OLE_loop_record,libname=ole.so,addr=0x401f,after=1,reglist=(nil),nreg=0)=modif_18
+madras_fctcall_new(fctname=OLE_init,libname=ole.so,addr=0x1000,after=0,reglist=(nil),nreg=0)=modif_19
+madras_fctcall_addparam_fromglobvar(modif=modif_19,gv=0,str="memopt",opt=a)
+madras_fctcall_addparam_fromglobvar(modif=modif_19,gv=0,str="maqao-ole_10-3-2019/",opt=a)
+madras_fctcall_addparam_imm(modif=modif_19,imm=0x20,opt=97)
+madras_modifs_commit(newfilename=maqao-ole_10-3-2019/bin/memopt_i_ole)
